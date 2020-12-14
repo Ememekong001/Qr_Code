@@ -14,7 +14,7 @@
 
             <div class="qr-position">
                 <h4>Simple QrCode</h4>
-                {!!QrCode::size(250)->color(39,57,219)->backgroundColor(255,255,255)->generate('emem')!!}
+                {!!QrCode::size(250)->color(39,57,219)->backgroundColor(255,255,255)->generate('http://127.0.0.1:8000/qrprofile')!!}
             </div>
         </div>
     </div>
